@@ -21,12 +21,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} h-full antialiased dark`}
+      className={`${inter.variable} h-full antialiased text-stone-800`}
     >
-      <body className="min-h-full flex text-gray-200 bg-[#0a0a0f] selection:bg-brand-500/30">
+      <body className="min-h-full flex bg-[var(--color-app-bg)] selection:bg-brand-500/20">
         <Sidebar />
         <main className="flex-1 overflow-y-auto w-full relative pb-16 md:pb-0">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-900/10 via-[#0a0a0f]/0 to-[#0a0a0f]/0 pointer-events-none" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-900/5 via-transparent to-transparent pointer-events-none" />
           <div className="max-w-6xl mx-auto p-4 md:p-8 relative">
             {children}
           </div>

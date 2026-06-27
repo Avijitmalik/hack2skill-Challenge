@@ -23,8 +23,8 @@ export function Sidebar() {
         <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center shadow-lg shadow-brand-500/30">
           <Zap className="w-5 h-5 text-white" />
         </div>
-        <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-400">
-          MindMate <span className="text-brand-400">AI</span>
+        <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-stone-800 to-stone-500">
+          MindMate <span className="text-brand-500">AI</span>
         </h1>
       </div>
 
@@ -39,8 +39,8 @@ export function Sidebar() {
               className={cn(
                 "flex items-center gap-3 px-3 py-3 rounded-xl transition-all duration-200 group",
                 isActive
-                  ? "bg-brand-500/10 text-brand-400"
-                  : "text-gray-400 hover:text-gray-100 hover:bg-white/5"
+                  ? "bg-brand-100 text-brand-600 font-semibold"
+                  : "text-stone-500 hover:text-stone-800 hover:bg-stone-100/50"
               )}
             >
               <Icon
@@ -55,9 +55,9 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="p-4 rounded-xl bg-gradient-to-r from-brand-600/20 to-brand-900/20 border border-brand-500/20 mt-auto">
-        <p className="text-sm text-gray-300 font-medium">Exam Prep Mode</p>
-        <p className="text-xs text-gray-500 mt-1">Stay focused and balanced.</p>
+      <div className="p-4 rounded-xl bg-gradient-to-r from-brand-50 to-brand-100 border border-brand-200 mt-auto">
+        <p className="text-sm text-stone-700 font-semibold">Exam Prep Mode</p>
+        <p className="text-xs text-stone-500 mt-1">Stay focused and balanced.</p>
       </div>
     </aside>
   );
