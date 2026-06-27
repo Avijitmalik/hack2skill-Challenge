@@ -1,0 +1,12 @@
+{
+  "name": "hack2skill-challenge",
+  "private": true,
+  "workspaces": [
+    "mindmate"
+  ],
+  "scripts": {
+    "dev": "cd mindmate && npm run dev",
+    "build": "cd mindmate && npm run build",
+    "start": "cd mindmate && npm run start"
+  }
+}

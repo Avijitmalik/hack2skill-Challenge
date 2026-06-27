@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "mindmate/package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
