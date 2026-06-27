@@ -20,7 +20,8 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
     } catch (error) {
       console.warn(`Error reading localStorage key "${key}":`, error);
     }
-  }, [key, initialValue]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
 
   // Return a wrapped version of useState's setter function that
   // persists the new value to localStorage.
