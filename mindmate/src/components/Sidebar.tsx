@@ -55,10 +55,6 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="p-4 rounded-xl bg-gradient-to-r from-brand-50 to-brand-100 border border-brand-200 mt-auto">
-        <p className="text-sm text-stone-700 font-semibold">Exam Prep Mode</p>
-        <p className="text-xs text-stone-500 mt-1">Stay focused and balanced.</p>
-      </div>
     </aside>
   );
 }
