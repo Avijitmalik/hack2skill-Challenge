@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "framework": "nextjs",
-  "installCommand": "npm install",
-  "buildCommand": "cd mindmate && npm install && npm run build",
-  "outputDirectory": "mindmate/.next"
-}
